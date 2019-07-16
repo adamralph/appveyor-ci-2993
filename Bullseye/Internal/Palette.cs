@@ -75,14 +75,6 @@ namespace Bullseye.Internal
                 this.Symbol = brightBlack;
                 this.Text = brightBlack;
 
-                if (operatingSystem == OperatingSystem.Windows)
-                {
-                    this.TreeCorner = "  ";
-                    this.TreeFork = "  ";
-                    this.TreeDown = "  ";
-                    this.Dash = '-';
-                }
-
                 if (operatingSystem == OperatingSystem.Linux)
                 {
                     this.Timing = brightMagenta;
